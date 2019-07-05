@@ -28,7 +28,6 @@ class Launches extends Component {
             ({loading, error, data}) => {
               if (loading) return <Typography variant={'h4'} component={'h4'}>Loading...</Typography>;
               if (error) console.log(error);
-              console.log(data);
               return <>
                 {data.launches.map((launch) => (
                   <LaunchItem key={launch.flight_number} launch={launch}/>

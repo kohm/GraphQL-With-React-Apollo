@@ -32,7 +32,6 @@ const Launch = (props) => {
         ({loading, error, data}) => {
           if (loading) return <Typography variant={'h4'} component={'h4'}>Loading...</Typography>;
           if (error) console.log(error);
-          console.log(data);
           const {
             flight_number,
             mission_name,
