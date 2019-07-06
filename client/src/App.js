@@ -30,10 +30,11 @@ const useStyles = makeStyles((theme) => {
       alignItems: 'center',
       display: 'flex',
       flexDirection: 'column',
+      marginBottom: theme.spacing(4),
       marginLeft: 'auto',
       marginRight: 'auto',
       marginTop: theme.spacing(8),
-      maxWidth: '450px'
+      width: '100%'
     }
   }
 });
@@ -48,7 +49,7 @@ function App() {
         <React.Fragment>
           <CssBaseline/>
           <Container>
-            <img src={logo} alt={'SpaceX Logo'} className={classes.logo}/>
+            <img src={logo} alt={'SpaceX Logo'} className={classes.logo} />
             <BrowserRouter>
               <Route exact path={'/'} component={Launches}/>
               <Route exact path={'/launch/:flight_number'} component={Launch}/>
