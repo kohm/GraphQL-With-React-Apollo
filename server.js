@@ -18,6 +18,8 @@ app.use('/graphql', graphqlHTTP({
 
 app.use(express.static('public'));
 
+console.log(process.env.MONGODB_URI);
+
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'public', 'index.html'))
 });

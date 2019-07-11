@@ -6,7 +6,7 @@ import logo from './assets/images/spacex-logo-black-and-white.png'
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from "@material-ui/core/Container";
-import {deepOrange} from '@material-ui/core/colors'
+import {blue} from '@material-ui/core/colors'
 import {makeStyles} from '@material-ui/core/styles';
 import Launches from "./components/Launches";
 import Launch from "./components/Launch";
@@ -18,7 +18,7 @@ const client = new ApolloClient({
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: deepOrange[400]
+      main: blue[100]
     },
     type: 'dark'
   }

@@ -30,7 +30,7 @@ const LaunchItem = (props) => {
   const {flight_number, mission_name, launch_date_local, launch_success} = props.launch;
 
   return (
-    <Paper className={`${classes.paper} ${launch_success && classes.success} ${!launch_success && classes.failed}`} elevation={3}>
+    <Paper className={`${classes.paper} ${launch_success && classes.success} ${!launch_success && classes.failed}`} elevation={1}>
       <Grid container>
         <Grid item xs={9}>
           <Typography variant="h5" component="h6">
@@ -46,7 +46,7 @@ const LaunchItem = (props) => {
           </Typography>
         </Grid>
         <Grid item xs={3}>
-          <Button color={'primary'} component={CollisionLink} to={`/launch/${flight_number}`}>
+          <Button color={'primary'} variant={'contained'} component={CollisionLink} to={`/launch/${flight_number}`}>
             Open Launch
           </Button>
         </Grid>
