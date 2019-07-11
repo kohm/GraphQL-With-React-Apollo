@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.196fe619.chunk.js",
-    "main.js.map": "/static/js/main.196fe619.chunk.js.map",
+    "main.js": "/static/js/main.8e25ee6a.chunk.js",
+    "main.js.map": "/static/js/main.8e25ee6a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.42c3f767.chunk.js": "/static/js/2.42c3f767.chunk.js",
-    "static/js/2.42c3f767.chunk.js.map": "/static/js/2.42c3f767.chunk.js.map",
+    "static/js/2.1304842b.chunk.js": "/static/js/2.1304842b.chunk.js",
+    "static/js/2.1304842b.chunk.js.map": "/static/js/2.1304842b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5e70d990cad578fdc314e81ba63121c9.js": "/precache-manifest.5e70d990cad578fdc314e81ba63121c9.js",
+    "precache-manifest.42190bda00031f0054a01bcfdf3cac8f.js": "/precache-manifest.42190bda00031f0054a01bcfdf3cac8f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
     "static/media/spacex-logo-black-and-white.png": "/static/media/spacex-logo-black-and-white.f751c040.png"
